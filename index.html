@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre minhas férias</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif; 
+        }
+        .parte {
+            display: flex;
+            max-width: 80%;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .texto {
+            flex: 1;
+            padding: 20px;
+            text-align: justify;
+        }
+        .imagem {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+        }
+        button {
+            background-color: #000000; /* Verde */
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 20px auto;
+            display: block;
+        }
+        button:hover {
+            background-color: #3a3939; 
+        }
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minhas férias</h1>
+    <!-- Parte 1 -->
+    <div class="parte">
+        <div class="imagem">
+            <img src="imgs/trabalho.jpeg" alt="Foto da minha viagem">
+        </div>
+        <div class="texto">
+            <h2>Minha Primeira Parada</h2>
+            <p>Por um período das férias, fiquei em Prudente trabalhando no shopping, foi bem corrido, mas compensou no final.</p>
+        </div>
+    </div>
+
+    <!-- Parte 2 -->
+    <div class="parte">
+        <div class="texto">
+            <h2>Natal</h2>
+            <p>Depois da correria com o trabalho, pude aproveitar o Natal ao lado da pessoa mais importante, meu avô.</p>
+        </div>
+        <div class="imagem">
+            <img src="imgs/natal.jpeg" alt="Passeio pela cidade">
+        </div>
+    </div>
+
+    <!-- Parte 3 -->
+    <div class="parte">
+        <div class="imagem">
+            <img src="imgs/irmao.jpeg" alt="Dia na praia">
+        </div>
+        <div class="texto">
+            <h2>Ainda no Natal</h2>
+            <p>Esse ano, tive o privilégio de conseguir passar o natal com a coisinha mais fofa do mundo, meu irmão.</p>
+        </div>
+    </div>
+
+    <button onclick="window.location.href='pagina2.html';">Próxima página</button>
+</body>
+</html>
